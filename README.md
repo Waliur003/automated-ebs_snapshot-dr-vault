@@ -1,4 +1,4 @@
-# Project 01: Automated EBS Snapshot & DR Vault
+# Cloud Engineering Project 01: Automated EBS Snapshot & DR Vault
 
 ## _Overview_
 This project implements an automated, event-driven **Disaster Recovery (DR)** solution on AWS. It uses **Amazon EventBridge** to trigger an **AWS Lambda** function on a schedule, which identifies and backs up critical **EBS volumes** based on **resource tags**.
@@ -99,6 +99,7 @@ I designed and implemented an automated disaster recovery solution to protect cr
 - Add **SNS notifications** for failure alerts.
 - Copy snapshots to another region for **cross-region DR**.
 - Implement **AWS Backup Vault** + lifecycle policies for centralized governance.
+
 
 
 
