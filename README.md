@@ -78,10 +78,10 @@ I designed and implemented an automated disaster recovery solution to protect cr
 [<img width="1918" height="862" alt="image" src="https://github.com/user-attachments/assets/f08188a7-e1c7-4bb4-a186-8bdee950f3d3" />](https://github.com/Waliur003/automated-ebs_snapshot-dr-vault/blob/66e09293568e8579e54d9e6e7d7a2fe8049d1946/Screenshot%202.png)
 
 ### _3) EventBridge Schedule Rule (Cron)_
-<img width="1900" height="827" alt="image" src="https://github.com/user-attachments/assets/613efa25-6b29-49ba-b031-45da2071c1ae" />
+[<img width="1900" height="827" alt="image" src="https://github.com/user-attachments/assets/613efa25-6b29-49ba-b031-45da2071c1ae" />](https://github.com/Waliur003/automated-ebs_snapshot-dr-vault/blob/1c94ab5ecc2074d3f2bbcdbeac4410c0ee11dc27/Screenshot%203.png)
 
 ### _4) Snapshots Created in EC2 Console_
-<img width="1917" height="866" alt="image" src="https://github.com/user-attachments/assets/c12f966f-25cf-4854-92d7-1c56b589a952" />
+[<img width="1917" height="866" alt="image" src="https://github.com/user-attachments/assets/c12f966f-25cf-4854-92d7-1c56b589a952" />](https://github.com/Waliur003/automated-ebs_snapshot-dr-vault/blob/1c94ab5ecc2074d3f2bbcdbeac4410c0ee11dc27/Screenshot%204.png)
 
 
 
@@ -99,6 +99,7 @@ I designed and implemented an automated disaster recovery solution to protect cr
 - Add **SNS notifications** for failure alerts.
 - Copy snapshots to another region for **cross-region DR**.
 - Implement **AWS Backup Vault** + lifecycle policies for centralized governance.
+
 
 
 
