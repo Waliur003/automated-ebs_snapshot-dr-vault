@@ -63,7 +63,8 @@ I designed and implemented an automated disaster recovery solution to protect cr
 ---
 
 ## _Architecture Diagram_
-[<img width="1169" height="827" alt="image" src="https://github.com/user-attachments/assets/d4ea48b8-d638-43e4-a21a-3f83b53487eb" />](https://github.com/Waliur003/automated-ebs_snapshot-dr-vault/blob/6e1121fd434948a8bb200811c95678e259001246/Architecture%20Diagram%20of%20Project%201.jpg)
+![Architecture Diagram of Project 1](https://github.com/user-attachments/assets/f5535c47-4c11-4af7-bf04-db7d662064b8)
+
 
 ---
 
@@ -103,6 +104,7 @@ I designed and implemented an automated disaster recovery solution to protect cr
 - Add **SNS notifications** for failure alerts.
 - Copy snapshots to another region for **cross-region DR**.
 - Implement **AWS Backup Vault** + lifecycle policies for centralized governance.
+
 
 
 
